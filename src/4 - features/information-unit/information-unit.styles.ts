@@ -8,7 +8,7 @@ export const InformationUnit = styled.div<{ sidebar: boolean }>`
   margin-bottom: 20px;
 
   ${Column} {
-    padding-left: ${({ sidebar }) => sidebar || '50px'};
+    padding-left: ${({ sidebar }) => !sidebar && '50px'};
   }
 `;
 

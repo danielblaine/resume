@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 type TextType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 
-const TEXT_SIZES: { [key: TextType]: string } = {
+const TEXT_SIZES: { [key in TextType]: string } = {
   h1: '36px',
   h2: '24px',
   h3: '20px',
