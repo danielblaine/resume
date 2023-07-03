@@ -1,3 +1,3 @@
-export interface ListProps {
+export type ListProps = {
   items: string[];
-}
+};

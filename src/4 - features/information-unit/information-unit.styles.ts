@@ -1,14 +1,19 @@
 import styled from 'styled-components';
 import { Column, Typography } from '@shared/ui';
+import { PALETTE } from '@shared/styles';
 
-export const InformationUnit = styled.div<{ sidebar: boolean }>`
+export const InformationUnit = styled.div<{ $sidebar: boolean }>`
   display: flex;
   flex-direction: column;
   gap: 10px;
   margin-bottom: 20px;
 
   ${Column} {
-    padding-left: ${({ sidebar }) => !sidebar && '50px'};
+    padding-left: ${({ $sidebar }) => !$sidebar && '50px'};
+  }
+
+  :last-child {
+    margin-bottom: 0;
   }
 `;
 
@@ -19,7 +24,7 @@ export const InformationUnitHeader = styled.div`
 `;
 
 export const IconWrap = styled.div`
-  background-color: #373d48;
+  background-color: ${PALETTE.primary};
   border-radius: 50%;
   width: 40px;
   height: 40px;

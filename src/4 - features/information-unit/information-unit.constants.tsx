@@ -1,6 +1,5 @@
 import { ReactNode } from 'react';
 import {
-  ContactsIcon,
   DomainsIcon,
   EducationIcon,
   ExperienceIcon,
@@ -11,7 +10,6 @@ import {
 import { InformationUnitEnum } from './information-unit.types';
 
 export const INFORMATION_UNIT_ICONS: { [key in InformationUnitEnum]: ReactNode } = {
-  [InformationUnitEnum.CONTACTS]: <ContactsIcon />,
   [InformationUnitEnum.DOMAINS]: <DomainsIcon />,
   [InformationUnitEnum.EDUCATION]: <EducationIcon />,
   [InformationUnitEnum.EXPERIENCE]: <ExperienceIcon />,

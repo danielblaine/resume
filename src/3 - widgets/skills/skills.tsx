@@ -8,7 +8,7 @@ export const Skills: FC = () => {
     <InformationUnit unit={InformationUnitEnum.SKILLS}>
       <S.SkillsGrid>
         <Note title="Programming Languages" info="TypeScript, JavaScript" />
-        <Note title="State Management" info="Redux (Toolkit, Thunk), MobX" />
+        <Note title="State Management" info="Redux (Toolkit, Thunk), MobX, React Query" />
         <Note title="Styling" info="Styled-Components, MUI, Sass" />
         <Note title="Form Management" info="React Hook Form" />
         <Note title="Module Bundlers" info="Webpack, Vite" />

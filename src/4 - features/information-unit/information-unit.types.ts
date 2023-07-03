@@ -1,10 +1,9 @@
-export interface InformationUnitProps {
+export type InformationUnitProps = {
   unit: InformationUnitEnum;
   sidebar?: boolean;
-}
+};
 
 export enum InformationUnitEnum {
-  CONTACTS = 'Contacts',
   DOMAINS = 'Domains',
   EDUCATION = 'Education',
   EXPERIENCE = 'Experience',

@@ -6,7 +6,7 @@ import { NoteProps } from './note.types';
 export const Note: FC<NoteProps> = ({ title, info, link }) => {
   return (
     <S.Note>
-      <Typography bold>{title}</Typography>
+      <Typography $bold>{title}</Typography>
       {link ? (
         <S.Link href={link} target="_blank">
           {info}

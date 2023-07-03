@@ -10,10 +10,10 @@ export const InformationUnit: FC<PropsWithChildren<InformationUnitProps>> = ({
   children
 }) => {
   return (
-    <S.InformationUnit sidebar={!!sidebar}>
+    <S.InformationUnit $sidebar={!!sidebar}>
       <S.InformationUnitHeader>
         <S.IconWrap>{INFORMATION_UNIT_ICONS[unit]}</S.IconWrap>
-        <Typography type="h2" bold>
+        <Typography variant="h2" $bold>
           {unit}
         </Typography>
       </S.InformationUnitHeader>

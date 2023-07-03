@@ -1,20 +1,19 @@
 import { FC } from 'react';
+import { Languages } from '@widgets/languages';
+import { Education } from '@widgets/education';
 import { InformationUnit, InformationUnitEnum } from '@features/information-unit';
-import { Avatar, List, Note } from '@shared/ui';
+import { Avatar, List } from '@shared/ui';
+import * as S from './sidebar.styles';
 
 export const Sidebar: FC = () => {
   return (
-    <>
+    <S.Sidebar>
       <Avatar />
-      <InformationUnit unit={InformationUnitEnum.EDUCATION} sidebar>
-        <Note title="BSUIR (2020 – present)" info="Programmer, Business Analyst" />
-      </InformationUnit>
+      <Education sidebar />
+      <Languages sidebar />
       <InformationUnit unit={InformationUnitEnum.DOMAINS} sidebar>
         <List items={['E-Commerce', 'Business Applications', 'Gaming']} />
       </InformationUnit>
-      <InformationUnit unit={InformationUnitEnum.LANGUAGES} sidebar>
-        <List items={['English (Upper Intermediate)', 'Russian (Native)']} />
-      </InformationUnit>
-    </>
+    </S.Sidebar>
   );
 };

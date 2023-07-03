@@ -1,4 +1,3 @@
-export { ContactsIcon } from './contacts.icon';
 export { DomainsIcon } from './domains.icon';
 export { EducationIcon } from './education.icon';
 export { ExperienceIcon } from './experience.icon';

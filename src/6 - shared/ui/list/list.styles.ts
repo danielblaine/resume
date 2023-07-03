@@ -1,9 +1,9 @@
 import styled from 'styled-components';
+import { PALETTE } from '@shared/styles';
 
 export const List = styled.div`
   display: flex;
   flex-direction: column;
-  padding-left: 12px;
 `;
 
 export const ListItem = styled.div`
@@ -16,5 +16,5 @@ export const ListMarker = styled.div`
   height: 6px;
   min-width: 6px;
   border-radius: 50%;
-  background-color: #373d48;
+  background-color: ${PALETTE.primary};
 `;
