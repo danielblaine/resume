@@ -9,7 +9,7 @@ export const Position: FC = () => {
         Vitaly Olhov
       </Typography>
       <Typography variant="h3" $bold>
-        React Developer
+        React / Next Developer
       </Typography>
     </S.Position>
   );

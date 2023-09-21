@@ -4,6 +4,22 @@ export const WORK_HISTORY: ICompany[] = [
   {
     id: 1,
     position: 'React Developer',
+    name: 'STARTUP',
+    period: '01.2022 – 07.2022',
+    responsibilities: [
+      'Creating user interfaces for Web-Games',
+      'Creating layouts from Figma',
+      'Assistance in database planning',
+      'Interaction with the server API',
+      'Application testing',
+      'Communication with Backend Developer and Designer',
+      'Task estimation',
+      'Technical support'
+    ]
+  },
+  {
+    id: 2,
+    position: 'React / Next Developer',
     name: 'INNOWISE GROUP',
     period: '07.2022 – present',
     responsibilities: [
@@ -21,4 +37,4 @@ export const WORK_HISTORY: ICompany[] = [
       'Unit & integration testing'
     ]
   }
-];
+].reverse();
