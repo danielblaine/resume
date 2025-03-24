@@ -19,10 +19,11 @@ export const WORK_HISTORY: ICompany[] = [
   },
   {
     id: 2,
-    position: 'React / Next Developer',
+    position: 'Frontend Engineer',
     name: 'INNOWISE GROUP',
     period: '07.2022 – present',
     responsibilities: [
+      'Mentoring',
       'Participating in project planning and estimation activities',
       'Creation and control of project architecture',
       'Assistance in database planning',

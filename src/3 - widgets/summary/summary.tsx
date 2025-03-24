@@ -6,7 +6,7 @@ export const Summary: FC = () => {
   return (
     <InformationUnit unit={InformationUnitEnum.SUMMARY}>
       <Typography>
-        Specialist with more than 2 years of experience as a React Developer. {`\n`}
+        Specialist with more than 3 years of experience as a Frontend Engineer. {`\n`}
         Hands-on experience with various industries like Business applications, E-commerce and
         Gaming. {`\n`}
         Skilled in creating scalable web applications. {`\n`}

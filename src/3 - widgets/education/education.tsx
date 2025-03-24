@@ -6,7 +6,7 @@ import { Note } from '@shared/ui';
 export const Education: FC<EducationProps> = ({ sidebar }) => {
   return (
     <InformationUnit unit={InformationUnitEnum.EDUCATION} sidebar={sidebar}>
-      <Note title="BSUIR (2020 – present)" info="Programmer, Business Analyst" />
+      <Note title="BSUIR (2020 – 2024)" info="Programmer, Business Analyst" />
     </InformationUnit>
   );
 };
